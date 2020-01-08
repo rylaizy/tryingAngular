@@ -21,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule
   ],
   providers: [],
+  exports: [NavComponent, AboutComponent, HomeComponent, ContactComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
